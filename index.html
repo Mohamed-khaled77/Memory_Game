@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stayle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  
+</head>
+
+<body>
+  <div class="strat-button">
+    <button class="btn btn-primary" id="start-game">Start Game</button>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class=" col-12 d-flex justify-content-center  ">
+
+        <div class="info-container col-md-6 col-sm-12  rounded ">
+          <div class="name">
+            Hello:
+            <span></span>
+          </div>
+          <div class="tries">
+            wrong tries:
+            <span>0</span>
+          </div>
+        </div>
+      </div>
+      <div class="game-memory-container col-md-6 col-sm-12 d-flex ">
+        <!-- React -->
+        <div  class="game-block" data-technology="react">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-react"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="react">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-react"></i>
+          </div>
+        </div>
+
+        <!-- HTML5 -->
+        <div class="game-block" data-technology="html5">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="html5">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+        </div>
+
+        <!-- CSS3 -->
+        <div class="game-block" data-technology="css3">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="css3">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="game-block" data-technology="javascript">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-js"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="javascript">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-js"></i>
+          </div>
+        </div>
+
+        <!-- Node.js -->
+        <div class="game-block" data-technology="node">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-node-js"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="node">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-node-js"></i>
+          </div>
+        </div>
+
+        <!-- Python -->
+        <div class="game-block" data-technology="python">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-python"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="python">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-python"></i>
+          </div>
+        </div>
+
+        <!-- PHP -->
+        <div class="game-block" data-technology="php">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-php"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="php">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-php"></i>
+          </div>
+        </div>
+
+        <!-- Git -->
+        <div class="game-block" data-technology="git">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-git-alt"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="git">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-git-alt"></i>
+          </div>
+        </div>
+
+        <!-- Vue.js -->
+        <div class="game-block" data-technology="vue">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-vuejs"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="vue">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-vuejs"></i>
+          </div>
+        </div>
+
+        <!-- Angular -->
+        <div class="game-block" data-technology="angular">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-angular"></i>
+          </div>
+        </div>
+        <div class="game-block" data-technology="angular">
+          <div class="face front">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div class="face back">
+            <i class="fa-brands fa-angular"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-1q8d1sbNHd8k0CNLaTj8ZtpiKb4c3XCRBE7FGlCNQ0EPnX9ZJ0W9Ib7dPcFO3ksm"
+    crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
